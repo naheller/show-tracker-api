@@ -1,0 +1,662 @@
+{
+  "events": [
+    {
+      "name": "Iron Maiden - The Future Past World Tour 2024",
+      "type": "event",
+      "id": "G5dZZ9gEztV8a",
+      "test": false,
+      "url": "https://www.ticketmaster.com/iron-maiden-the-future-past-world-brooklyn-new-york-11-02-2024/event/30005F59F8A74409",
+      "locale": "en-us",
+      "images": [
+        {
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/a/7a8/5c3c7438-206c-4cab-9274-4a64d33857a8_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+          "width": 2048,
+          "height": 1152,
+          "fallback": false
+        },
+        {
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/a/7a8/5c3c7438-206c-4cab-9274-4a64d33857a8_ARTIST_PAGE_3_2.jpg",
+          "width": 305,
+          "height": 203,
+          "fallback": false
+        },
+        {
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/a/7a8/5c3c7438-206c-4cab-9274-4a64d33857a8_EVENT_DETAIL_PAGE_16_9.jpg",
+          "width": 205,
+          "height": 115,
+          "fallback": false
+        },
+        {
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/a/7a8/5c3c7438-206c-4cab-9274-4a64d33857a8_TABLET_LANDSCAPE_16_9.jpg",
+          "width": 1024,
+          "height": 576,
+          "fallback": false
+        },
+        {
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/a/7a8/5c3c7438-206c-4cab-9274-4a64d33857a8_RETINA_LANDSCAPE_16_9.jpg",
+          "width": 1136,
+          "height": 639,
+          "fallback": false
+        },
+        {
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/a/7a8/5c3c7438-206c-4cab-9274-4a64d33857a8_RETINA_PORTRAIT_16_9.jpg",
+          "width": 640,
+          "height": 360,
+          "fallback": false
+        },
+        {
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/a/7a8/5c3c7438-206c-4cab-9274-4a64d33857a8_RETINA_PORTRAIT_3_2.jpg",
+          "width": 640,
+          "height": 427,
+          "fallback": false
+        },
+        {
+          "ratio": "3_2",
+          "url": "https://s1.ticketm.net/dam/a/7a8/5c3c7438-206c-4cab-9274-4a64d33857a8_TABLET_LANDSCAPE_3_2.jpg",
+          "width": 1024,
+          "height": 683,
+          "fallback": false
+        },
+        {
+          "ratio": "16_9",
+          "url": "https://s1.ticketm.net/dam/a/7a8/5c3c7438-206c-4cab-9274-4a64d33857a8_RECOMENDATION_16_9.jpg",
+          "width": 100,
+          "height": 56,
+          "fallback": false
+        },
+        {
+          "url": "https://s1.ticketm.net/dam/a/7a8/5c3c7438-206c-4cab-9274-4a64d33857a8_SOURCE",
+          "width": 2426,
+          "height": 1750,
+          "fallback": false
+        },
+        {
+          "ratio": "4_3",
+          "url": "https://s1.ticketm.net/dam/a/7a8/5c3c7438-206c-4cab-9274-4a64d33857a8_CUSTOM.jpg",
+          "width": 305,
+          "height": 225,
+          "fallback": false
+        }
+      ],
+      "sales": {
+        "public": {
+          "startDateTime": "2023-11-03T14:00:00Z",
+          "startTBD": false,
+          "startTBA": false,
+          "endDateTime": "2024-11-02T23:30:00Z"
+        },
+        "presales": [
+          {
+            "startDateTime": "2023-10-31T14:00:00Z",
+            "endDateTime": "2023-11-03T02:00:00Z",
+            "name": "Fan Club Presale"
+          },
+          {
+            "startDateTime": "2023-11-01T14:00:00Z",
+            "endDateTime": "2023-11-03T02:00:00Z",
+            "name": "Live Nation Presale"
+          },
+          {
+            "startDateTime": "2023-11-01T14:00:00Z",
+            "endDateTime": "2023-11-03T02:00:00Z",
+            "name": "Ticketmaster Presale"
+          },
+          {
+            "startDateTime": "2023-11-02T14:00:00Z",
+            "endDateTime": "2023-11-03T02:00:00Z",
+            "name": "Venue Presale"
+          },
+          {
+            "startDateTime": "2023-11-01T14:00:00Z",
+            "endDateTime": "2023-11-03T13:45:00Z",
+            "name": "Official Platinum Presale"
+          },
+          {
+            "startDateTime": "2023-11-03T14:00:00Z",
+            "endDateTime": "2024-11-02T23:30:00Z",
+            "name": "Official Platinum Onsale"
+          },
+          {
+            "startDateTime": "2023-10-31T14:00:00Z",
+            "endDateTime": "2023-11-03T02:00:00Z",
+            "name": "Trooper VIP Package Presale"
+          },
+          {
+            "startDateTime": "2023-11-03T14:00:00Z",
+            "endDateTime": "2024-10-27T02:00:00Z",
+            "name": "Trooper VIP Package Onsale"
+          }
+        ]
+      },
+      "dates": {
+        "start": {
+          "localDate": "2024-11-02",
+          "localTime": "19:30:00",
+          "dateTime": "2024-11-02T23:30:00Z",
+          "dateTBD": false,
+          "dateTBA": false,
+          "timeTBA": false,
+          "noSpecificTime": false
+        },
+        "timezone": "America/New_York",
+        "status": {
+          "code": "onsale"
+        },
+        "spanMultipleDays": false
+      },
+      "classifications": [
+        {
+          "primary": true,
+          "segment": {
+            "id": "KZFzniwnSyZfZ7v7nJ",
+            "name": "Music"
+          },
+          "genre": {
+            "id": "KnvZfZ7vAvt",
+            "name": "Metal"
+          },
+          "subGenre": {
+            "id": "KZazBEonSMnZfZ7vaJ6",
+            "name": "Nu-Metal"
+          },
+          "type": {
+            "id": "KZAyXgnZfZ7v7nI",
+            "name": "Undefined"
+          },
+          "subType": {
+            "id": "KZFzBErXgnZfZ7v7lJ",
+            "name": "Undefined"
+          },
+          "family": false
+        }
+      ],
+      "promoter": {
+        "id": "653",
+        "name": "LIVE NATION MUSIC",
+        "description": "LIVE NATION MUSIC / NTL / USA"
+      },
+      "promoters": [
+        {
+          "id": "653",
+          "name": "LIVE NATION MUSIC",
+          "description": "LIVE NATION MUSIC / NTL / USA"
+        },
+        {
+          "id": "494",
+          "name": "PROMOTED BY VENUE",
+          "description": "PROMOTED BY VENUE / NTL / USA"
+        }
+      ],
+      "info": "Tickets are not available at the box office on the first day of the public on sale. Visit Barclays Center's A-Z Center Info Guide for venue information and frequently asked questions. SHOW: 7:30PM ALL AGES EVENT BAG POLICY: Drawstring backpacks and any bags measuring 14\" X 14\" X 6\" or smaller are permitted.",
+      "pleaseNote": "Tickets are not available at the box office on the first day of the public on sale. Visit Barclays Center's A-Z Center Info Guide for venue information and frequently asked questions.",
+      "priceRanges": [
+        {
+          "type": "standard",
+          "currency": "USD",
+          "min": 49.5,
+          "max": 159.5
+        }
+      ],
+      "seatmap": {
+        "staticUrl": "https://maps.ticketmaster.com/maps/geometry/3/event/30005F59F8A74409/staticImage?type=png&systemId=HOST",
+        "id": "seatmap"
+      },
+      "accessibility": {
+        "ticketLimit": 4,
+        "id": "accessibility"
+      },
+      "ticketLimit": {
+        "info": "There is an overall 6 ticket limit for this event.",
+        "id": "ticketLimit"
+      },
+      "ageRestrictions": {
+        "legalAgeEnforced": false,
+        "id": "ageRestrictions"
+      },
+      "ticketing": {
+        "safeTix": {
+          "enabled": true,
+          "inAppOnlyEnabled": false
+        },
+        "allInclusivePricing": {
+          "enabled": true
+        },
+        "id": "ticketing"
+      },
+      "_links": {
+        "self": {
+          "href": "/discovery/v2/events/G5dZZ9gEztV8a?locale=en-us"
+        },
+        "attractions": [
+          {
+            "href": "/discovery/v2/attractions/K8vZ9171G4V?locale=en-us"
+          },
+          {
+            "href": "/discovery/v2/attractions/K8vZ917bAqV?locale=en-us"
+          }
+        ],
+        "venues": [
+          {
+            "href": "/discovery/v2/venues/KovZ917AtP3?locale=en-us"
+          }
+        ]
+      },
+      "_embedded": {
+        "venues": [
+          {
+            "name": "Barclays Center",
+            "type": "venue",
+            "id": "KovZ917AtP3",
+            "test": false,
+            "url": "https://www.ticketmaster.com/barclays-center-tickets-brooklyn/venue/393376",
+            "locale": "en-us",
+            "images": [
+              {
+                "ratio": "16_9",
+                "url": "https://s1.ticketm.net/dbimages/22822v.jpg",
+                "width": 640,
+                "height": 360,
+                "fallback": false
+              }
+            ],
+            "postalCode": "11217",
+            "timezone": "America/New_York",
+            "city": {
+              "name": "Brooklyn"
+            },
+            "state": {
+              "name": "New York",
+              "stateCode": "NY"
+            },
+            "country": {
+              "name": "United States Of America",
+              "countryCode": "US"
+            },
+            "address": {
+              "line1": "620 Atlantic Ave"
+            },
+            "location": {
+              "longitude": "-73.97519",
+              "latitude": "40.68285"
+            },
+            "markets": [
+              {
+                "name": "New York/Tri-State Area",
+                "id": "35"
+              }
+            ],
+            "dmas": [
+              {
+                "id": 345
+              }
+            ],
+            "boxOfficeInfo": {
+              "openHoursDetail": "M-F 12-6pm; Sat 12-4pm; Sun Closed (Hours may differ due to events)",
+              "acceptedPaymentDetail": "American Express, Visa, Mastercard & Discover",
+              "willCallDetail": "No public Will Call"
+            },
+            "parkingDetail": "Parking at Barclays Center is very limited. For more information on parking garages in the area, please go to: https://www.barclayscenter.com/getting-here/parking",
+            "accessibleSeatingDetail": "Subject to availability, tickets for accessible seating may be purchased online for each event through Ticketmaster. Please refer all questions to the Barclays Center Disabled Services A to Z Guide: https://www.barclayscenter.com/center-info/disabled-a-to-z-guide ENTRY: All entrances at Barclays Center are ADA accessible. Re-entry is not permitted. All guests wishing to enter Barclays Center are subject to the established venue/NBA screening guidelines. INTERPRETING SERVICES: Patrons requiring sign language interpretation services for any events at Barclays Center should contact our Guest Services Department at least one week in advance of the event, by emailing guestservices@barclayscenter.com. MOBILITY DEVICE STORAGE & MEDICAL BAGS: Storage is available at Guest Services located at Section 112 on the Main Concourse and Section 212 on the Upper Concourse. SERVICE ANIMALS: Service animals are welcome at Barclays Center. In keeping with ADA regulations. Please contact our Guest Services Department if any accommodations are required, by emailing guestservices@barclayscenter.com.",
+            "generalInfo": {
+              "generalRule": "For a comprehensive guide on all information and policies/rules for attending any Barclays Center event, please go to: https://www.barclayscenter.com/center-info/a-z-guide",
+              "childRule": "For all sporting events and most concerts, children under 2 years old may enter Barclays Center free of charge but must sit on the lap of an accompanying ticketed adult. Any child that has reached their 2nd birthday will require a ticket to enter the arena and must occupy their ticketed seat only. Please note that some shows (especially those intended for children) will have a different policy and may require all children to have a ticket."
+            },
+            "upcomingEvents": {
+              "tmr": 3,
+              "ticketmaster": 64,
+              "_total": 67,
+              "_filtered": 0
+            },
+            "_links": {
+              "self": {
+                "href": "/discovery/v2/venues/KovZ917AtP3?locale=en-us"
+              }
+            }
+          }
+        ],
+        "attractions": [
+          {
+            "name": "Iron Maiden",
+            "type": "attraction",
+            "id": "K8vZ9171G4V",
+            "test": false,
+            "url": "https://www.ticketmaster.com/iron-maiden-tickets/artist/735341",
+            "locale": "en-us",
+            "externalLinks": {
+              "youtube": [
+                {
+                  "url": "https://www.youtube.com/user/ironmaiden"
+                }
+              ],
+              "twitter": [
+                {
+                  "url": "https://twitter.com/ironmaiden"
+                }
+              ],
+              "itunes": [
+                {
+                  "url": "https://itunes.apple.com/gb/artist/id546381"
+                }
+              ],
+              "lastfm": [
+                {
+                  "url": "https://www.last.fm/music/Iron+Maiden"
+                }
+              ],
+              "facebook": [
+                {
+                  "url": "https://www.facebook.com/ironmaiden"
+                }
+              ],
+              "spotify": [
+                {
+                  "url": "https://open.spotify.com/artist/6mdiAmATAx73kdxrNrnlao?autoplay=true"
+                }
+              ],
+              "instagram": [
+                {
+                  "url": "https://www.instagram.com/ironmaiden/"
+                }
+              ],
+              "musicbrainz": [
+                {
+                  "id": "ca891d65-d9b0-4258-89f7-e6ba29d83767"
+                }
+              ],
+              "homepage": [
+                {
+                  "url": "http://www.ironmaiden.com/"
+                }
+              ]
+            },
+            "images": [
+              {
+                "ratio": "16_9",
+                "url": "https://s1.ticketm.net/dam/a/7a8/5c3c7438-206c-4cab-9274-4a64d33857a8_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                "width": 2048,
+                "height": 1152,
+                "fallback": false
+              },
+              {
+                "ratio": "3_2",
+                "url": "https://s1.ticketm.net/dam/a/7a8/5c3c7438-206c-4cab-9274-4a64d33857a8_ARTIST_PAGE_3_2.jpg",
+                "width": 305,
+                "height": 203,
+                "fallback": false
+              },
+              {
+                "ratio": "16_9",
+                "url": "https://s1.ticketm.net/dam/a/7a8/5c3c7438-206c-4cab-9274-4a64d33857a8_EVENT_DETAIL_PAGE_16_9.jpg",
+                "width": 205,
+                "height": 115,
+                "fallback": false
+              },
+              {
+                "ratio": "16_9",
+                "url": "https://s1.ticketm.net/dam/a/7a8/5c3c7438-206c-4cab-9274-4a64d33857a8_TABLET_LANDSCAPE_16_9.jpg",
+                "width": 1024,
+                "height": 576,
+                "fallback": false
+              },
+              {
+                "ratio": "16_9",
+                "url": "https://s1.ticketm.net/dam/a/7a8/5c3c7438-206c-4cab-9274-4a64d33857a8_RETINA_LANDSCAPE_16_9.jpg",
+                "width": 1136,
+                "height": 639,
+                "fallback": false
+              },
+              {
+                "ratio": "16_9",
+                "url": "https://s1.ticketm.net/dam/a/7a8/5c3c7438-206c-4cab-9274-4a64d33857a8_RETINA_PORTRAIT_16_9.jpg",
+                "width": 640,
+                "height": 360,
+                "fallback": false
+              },
+              {
+                "ratio": "3_2",
+                "url": "https://s1.ticketm.net/dam/a/7a8/5c3c7438-206c-4cab-9274-4a64d33857a8_RETINA_PORTRAIT_3_2.jpg",
+                "width": 640,
+                "height": 427,
+                "fallback": false
+              },
+              {
+                "ratio": "3_2",
+                "url": "https://s1.ticketm.net/dam/a/7a8/5c3c7438-206c-4cab-9274-4a64d33857a8_TABLET_LANDSCAPE_3_2.jpg",
+                "width": 1024,
+                "height": 683,
+                "fallback": false
+              },
+              {
+                "ratio": "16_9",
+                "url": "https://s1.ticketm.net/dam/a/7a8/5c3c7438-206c-4cab-9274-4a64d33857a8_RECOMENDATION_16_9.jpg",
+                "width": 100,
+                "height": 56,
+                "fallback": false
+              },
+              {
+                "url": "https://s1.ticketm.net/dam/a/7a8/5c3c7438-206c-4cab-9274-4a64d33857a8_SOURCE",
+                "width": 2426,
+                "height": 1750,
+                "fallback": false
+              },
+              {
+                "ratio": "4_3",
+                "url": "https://s1.ticketm.net/dam/a/7a8/5c3c7438-206c-4cab-9274-4a64d33857a8_CUSTOM.jpg",
+                "width": 305,
+                "height": 225,
+                "fallback": false
+              }
+            ],
+            "classifications": [
+              {
+                "primary": true,
+                "segment": {
+                  "id": "KZFzniwnSyZfZ7v7nJ",
+                  "name": "Music"
+                },
+                "genre": {
+                  "id": "KnvZfZ7vAvt",
+                  "name": "Metal"
+                },
+                "subGenre": {
+                  "id": "KZazBEonSMnZfZ7vkFd",
+                  "name": "Heavy Metal"
+                },
+                "type": {
+                  "id": "KZAyXgnZfZ7v7nI",
+                  "name": "Undefined"
+                },
+                "subType": {
+                  "id": "KZFzBErXgnZfZ7v7lJ",
+                  "name": "Undefined"
+                },
+                "family": false
+              }
+            ],
+            "upcomingEvents": {
+              "mfx-be": 1,
+              "tmr": 2,
+              "ticketmaster": 30,
+              "_total": 33,
+              "_filtered": 0
+            },
+            "_links": {
+              "self": {
+                "href": "/discovery/v2/attractions/K8vZ9171G4V?locale=en-us"
+              }
+            }
+          },
+          {
+            "name": "The Hu",
+            "type": "attraction",
+            "id": "K8vZ917bAqV",
+            "test": false,
+            "url": "https://www.ticketmaster.com/the-hu-tickets/artist/2639449",
+            "locale": "en-us",
+            "externalLinks": {
+              "youtube": [
+                {
+                  "url": "https://www.youtube.com/channel/UCs6vRDdkZ8bP8Xt6WHbvrwA"
+                }
+              ],
+              "twitter": [
+                {
+                  "url": "https://twitter.com/thehuofficial"
+                }
+              ],
+              "itunes": [
+                {
+                  "url": "https://music.apple.com/us/artist/the-hu/391885107"
+                }
+              ],
+              "spotify": [
+                {
+                  "url": "https://open.spotify.com/artist/0b2B3PwcYzQAhuJacmcYgc?autoplay=true"
+                }
+              ],
+              "facebook": [
+                {
+                  "url": "https://www.facebook.com/thehuofficial/"
+                }
+              ],
+              "instagram": [
+                {
+                  "url": "https://www.instagram.com/thehuofficial/"
+                }
+              ],
+              "homepage": [
+                {
+                  "url": "https://www.thehuofficial.com/"
+                }
+              ]
+            },
+            "images": [
+              {
+                "ratio": "16_9",
+                "url": "https://s1.ticketm.net/dam/a/154/ca936c28-f509-414b-9cff-02a95da70154_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                "width": 2048,
+                "height": 1152,
+                "fallback": false
+              },
+              {
+                "ratio": "16_9",
+                "url": "https://s1.ticketm.net/dam/a/154/ca936c28-f509-414b-9cff-02a95da70154_RETINA_LANDSCAPE_16_9.jpg",
+                "width": 1136,
+                "height": 639,
+                "fallback": false
+              },
+              {
+                "ratio": "16_9",
+                "url": "https://s1.ticketm.net/dam/a/154/ca936c28-f509-414b-9cff-02a95da70154_TABLET_LANDSCAPE_16_9.jpg",
+                "width": 1024,
+                "height": 576,
+                "fallback": false
+              },
+              {
+                "ratio": "3_2",
+                "url": "https://s1.ticketm.net/dam/a/154/ca936c28-f509-414b-9cff-02a95da70154_TABLET_LANDSCAPE_3_2.jpg",
+                "width": 1024,
+                "height": 683,
+                "fallback": false
+              },
+              {
+                "ratio": "3_2",
+                "url": "https://s1.ticketm.net/dam/a/154/ca936c28-f509-414b-9cff-02a95da70154_ARTIST_PAGE_3_2.jpg",
+                "width": 305,
+                "height": 203,
+                "fallback": false
+              },
+              {
+                "url": "https://s1.ticketm.net/dam/a/154/ca936c28-f509-414b-9cff-02a95da70154_SOURCE",
+                "width": 2625,
+                "height": 1365,
+                "fallback": false
+              },
+              {
+                "ratio": "16_9",
+                "url": "https://s1.ticketm.net/dam/a/154/ca936c28-f509-414b-9cff-02a95da70154_RECOMENDATION_16_9.jpg",
+                "width": 100,
+                "height": 56,
+                "fallback": false
+              },
+              {
+                "ratio": "16_9",
+                "url": "https://s1.ticketm.net/dam/a/154/ca936c28-f509-414b-9cff-02a95da70154_EVENT_DETAIL_PAGE_16_9.jpg",
+                "width": 205,
+                "height": 115,
+                "fallback": false
+              },
+              {
+                "ratio": "3_2",
+                "url": "https://s1.ticketm.net/dam/a/154/ca936c28-f509-414b-9cff-02a95da70154_RETINA_PORTRAIT_3_2.jpg",
+                "width": 640,
+                "height": 427,
+                "fallback": false
+              },
+              {
+                "ratio": "16_9",
+                "url": "https://s1.ticketm.net/dam/a/154/ca936c28-f509-414b-9cff-02a95da70154_RETINA_PORTRAIT_16_9.jpg",
+                "width": 640,
+                "height": 360,
+                "fallback": false
+              },
+              {
+                "ratio": "4_3",
+                "url": "https://s1.ticketm.net/dam/a/154/ca936c28-f509-414b-9cff-02a95da70154_CUSTOM.jpg",
+                "width": 305,
+                "height": 225,
+                "fallback": false
+              }
+            ],
+            "classifications": [
+              {
+                "primary": true,
+                "segment": {
+                  "id": "KZFzniwnSyZfZ7v7nJ",
+                  "name": "Music"
+                },
+                "genre": {
+                  "id": "KnvZfZ7vAvt",
+                  "name": "Metal"
+                },
+                "subGenre": {
+                  "id": "KZazBEonSMnZfZ7vkFd",
+                  "name": "Heavy Metal"
+                },
+                "type": {
+                  "id": "KZAyXgnZfZ7v7l1",
+                  "name": "Group"
+                },
+                "subType": {
+                  "id": "KZFzBErXgnZfZ7vA71",
+                  "name": "Band"
+                },
+                "family": false
+              }
+            ],
+            "upcomingEvents": {
+              "mfx-cz": 1,
+              "ticketnet": 1,
+              "mfx-es": 4,
+              "ticketmaster": 18,
+              "_total": 24,
+              "_filtered": 0
+            },
+            "_links": {
+              "self": {
+                "href": "/discovery/v2/attractions/K8vZ917bAqV?locale=en-us"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
