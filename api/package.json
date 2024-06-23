@@ -24,6 +24,8 @@
     "fastify-axios": "^1.2.8",
     "fastify-cli": "^5.9.0",
     "fastify-plugin": "^4.0.0",
+    "ngeohash": "^0.6.3",
+    "nodemailer": "^6.9.14",
     "pg": "^8.11.5",
     "zipcodes": "^8.0.0"
   },

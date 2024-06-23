@@ -21,8 +21,6 @@ module.exports = fp(async function (fastify, opts) {
         reply.code(status || 200).send({ events });
       } catch (error) {
         reply.code(error.status || 500).send(error);
-      } finally {
-        client.release();
       }
     }
   );
@@ -32,15 +30,16 @@ module.exports = fp(async function (fastify, opts) {
     const { name, id: id_tm, url: page_url_tm } = request.body;
 
     try {
-      await client.query(
+      const { rows } = await client.query(
         `
         insert into bands(id_tm, name, page_url_tm)
         values ($1, $2, $3)
-        on conflict (id_tm) do nothing;`,
+        on conflict (id_tm) do nothing
+        returning *;`,
         [id_tm, name, page_url_tm]
       );
 
-      reply.code(201).send({ data: request.body });
+      reply.code(rows.length ? 201 : 200).send({ data: request.body });
     } catch (error) {
       reply.code(error.status || 500).send(error);
     } finally {

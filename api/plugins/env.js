@@ -10,6 +10,10 @@ module.exports = fp(
         "SEATGEEK_CLIENT_ID",
         "SEATGEEK_SECRET",
         "TICKETMASTER_API_KEY",
+        "MAILER_USER",
+        "MAILER_PASS",
+        "MAILER_FROM",
+        "MAILER_TO",
       ],
       properties: {
         SEATGEEK_CLIENT_ID: {
@@ -21,6 +25,22 @@ module.exports = fp(
           default: "",
         },
         TICKETMASTER_API_KEY: {
+          type: "string",
+          default: "",
+        },
+        MAILER_USER: {
+          type: "string",
+          default: "",
+        },
+        MAILER_PASS: {
+          type: "string",
+          default: "",
+        },
+        MAILER_FROM: {
+          type: "string",
+          default: "",
+        },
+        MAILER_TO: {
           type: "string",
           default: "",
         },

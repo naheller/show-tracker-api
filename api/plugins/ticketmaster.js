@@ -1,6 +1,8 @@
 "use strict";
 
 const fp = require("fastify-plugin");
+const geohash = require("ngeohash");
+const zipcodes = require("zipcodes");
 
 /**
  * This plugins enables interaction with Ticketmaster API
@@ -31,21 +33,26 @@ module.exports = fp(
       getEventsByAttractionId: async (request) => {
         const { TICKETMASTER_API_KEY } = fastify.env;
 
-        try {
-          // const { data, status } = await fastify.axios.ticketmaster.get(
-          //   `/discovery/v2/events.json
-          //   ?apikey=${TICKETMASTER_API_KEY}
-          //   &attractionId=${request.params.attractionId}
-          //   &geoPoint=dr5rkqr
-          //   &radius=500`
-          // );
+        const myArea = zipcodes.lookup(11217);
+        const { latitude, longitude } = myArea;
 
+        const hash = geohash.encode(latitude, longitude);
+
+        try {
           const { data, status } = await fastify.axios.ticketmaster.get(
             `/discovery/v2/events.json
             ?apikey=${TICKETMASTER_API_KEY}
             &attractionId=${request.params.attractionId}
-            &postalCode=11217`
+            &geoPoint=${hash}&radius=25
+          `
           );
+
+          // const { data, status } = await fastify.axios.ticketmaster.get(
+          //   `/discovery/v2/events.json
+          //   ?apikey=${TICKETMASTER_API_KEY}
+          //   &attractionId=${request.params.attractionId}
+          //   &postalCode=07102`
+          // );
 
           const { _embedded } = data;
 

@@ -1,0 +1,27 @@
+services:
+  db:
+    image: postgres
+    volumes:
+      - db-data:/var/lib/postgresql/data
+      - ./db:/docker-entrypoint-initdb.d
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    restart: unless-stopped
+  api:
+    depends_on:
+      - db
+    build:
+      context: ./api
+      dockerfile: ./Dockerfile
+    ports:
+      - 3000:3000
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+
+volumes:
+  db-data:
+    driver: local

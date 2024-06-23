@@ -39,6 +39,8 @@ module.exports = fp(async function (fastify, opts) {
       const insertResults = await Promise.all(addEventsPromises);
       const newShows = insertResults.map(({ rows }) => rows).flat();
 
+      fastify.mailer.sendAlert(newShows);
+
       reply.code(200).send({ newShows });
     } catch (error) {
       reply.code(error.status || 500).send(error);
