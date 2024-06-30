@@ -21,6 +21,17 @@ services:
     stdin_open: true
     tty: true
     restart: unless-stopped
+  website:
+    depends_on:
+      - api
+    build:
+      context: ./website
+      dockerfile: ./Dockerfile
+    ports:
+      - 3001:3001
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
 
 volumes:
   db-data:

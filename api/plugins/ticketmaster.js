@@ -4,6 +4,10 @@ const fp = require("fastify-plugin");
 const geohash = require("ngeohash");
 const zipcodes = require("zipcodes");
 
+const sleep = (ms) => {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+};
+
 /**
  * This plugins enables interaction with Ticketmaster API
  */
@@ -30,13 +34,16 @@ module.exports = fp(
           throw error;
         }
       },
-      getEventsByAttractionId: async (request) => {
+      getEventsByAttractionId: async (request, delayMultiplier = 0) => {
         const { TICKETMASTER_API_KEY } = fastify.env;
+        const delayMs = 500;
 
         const myArea = zipcodes.lookup(11217);
         const { latitude, longitude } = myArea;
 
         const hash = geohash.encode(latitude, longitude);
+
+        await sleep(delayMs * delayMultiplier);
 
         try {
           const { data, status } = await fastify.axios.ticketmaster.get(

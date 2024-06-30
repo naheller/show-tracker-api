@@ -8,11 +8,15 @@ module.exports = fp(async function (fastify, opts) {
       const { rows } = await client.query("SELECT id_tm from bands;");
       const attractionIds = rows.map((row) => row.id_tm);
 
-      const getEventsPromises = attractionIds.map((id) =>
-        fastify.ticketmaster.getEventsByAttractionId({
-          params: { attractionId: id },
-        })
-      );
+      const getEventsPromises = attractionIds.map(async (id, index) => {
+        const delayMultiplier = index;
+        return fastify.ticketmaster.getEventsByAttractionId(
+          {
+            params: { attractionId: id },
+          },
+          delayMultiplier
+        );
+      });
 
       const fetchResults = await Promise.all(getEventsPromises);
       const eventsToAdd = fetchResults.map(({ events }) => events).flat();
@@ -39,7 +43,9 @@ module.exports = fp(async function (fastify, opts) {
       const insertResults = await Promise.all(addEventsPromises);
       const newShows = insertResults.map(({ rows }) => rows).flat();
 
-      fastify.mailer.sendAlert(newShows);
+      if (newShows.length) {
+        fastify.mailer.sendAlert(newShows);
+      }
 
       reply.code(200).send({ newShows });
     } catch (error) {
